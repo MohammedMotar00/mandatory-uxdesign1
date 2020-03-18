@@ -1,11 +1,17 @@
 import React from 'react';
-import logo from './logo.svg';
 import './App.css';
+
+import RadioButtons from './Components/RadioButtons';
+import CheckBoxes from './Components/Checkboxes';
+import Switch from './Components/Switch';
+import TextField from './Components/TextField';
 
 function App() {
   return (
     <div className="App">
-      
+      <form>
+        <TextField />
+      </form>
     </div>
   );
 }
