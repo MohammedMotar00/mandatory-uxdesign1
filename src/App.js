@@ -13,6 +13,8 @@ function App() {
         <TextField />
         <Switch /> 
         <CheckBoxes />
+        <br/>
+        <RadioButtons />
       </form>
     </div>
   );
