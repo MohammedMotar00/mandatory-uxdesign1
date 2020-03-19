@@ -11,6 +11,8 @@ function App() {
     <div className="App">
       <form>
         <TextField />
+        <Switch /> 
+        <CheckBoxes />
       </form>
     </div>
   );
