@@ -4,17 +4,21 @@ import '../Css/RadioButton.css';
 class RadioButtons extends Component {
     render() {
         return (
-            <>
-            <label class="container-radio">
-                <input type="radio" name="radio" className="radioButton" />
-                <span class="checkmark-radio"></span>
-            </label>
-            <br/>
-            <label class="container-radio">
-                <input type="radio" name="radio" className="radioButton" />
-                <span class="checkmark-radio"></span>
-            </label>
-            </>
+            <div className="div-radio">
+            <div className="div-radioButton1">
+                <label class="container-radio">
+                    <input type="radio" name="radio" className="radioButton" />
+                    <span class="checkmark-radio"></span>
+                </label>
+            </div>
+
+            <div className="div-radioButton2">
+                <label class="container-radio">
+                    <input type="radio" name="radio" className="radioButton" />
+                    <span class="checkmark-radio"></span>
+                </label>
+            </div>
+            </div>
         )
     }
 }
