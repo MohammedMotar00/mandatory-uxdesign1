@@ -1,5 +1,4 @@
 import React from 'react';
-import { BrowserRouter as Router } from 'react-router-dom';
 
 import RadioButtons from '../Components/RadioButtons';
 import CheckBoxes from '../Components/Checkboxes';

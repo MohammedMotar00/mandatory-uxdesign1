@@ -4,3 +4,25 @@
   width: 290px;
   font-size: 30px;
 }
+
+.components {
+  position: absolute;
+  top: 10%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.description {
+  width: 500px;
+  position: absolute;
+  top: 40%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background-color: rgba(0, 0, 0, 0.247);
+  border-radius: 5px;
+}
+
+p {
+  padding: 10px;
+  font-size: 20px;
+}
