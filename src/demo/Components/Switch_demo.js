@@ -1,10 +1,10 @@
 import React from 'react'
-import Checkboxes from '../../Components/Checkboxes'
+import Switch from '../../Components/Switch'
 
-function CheckBox_demo() {
+function Switch_demo() {
   return (
     <div>
-      <Checkboxes />
+      <Switch />
       <div className="description">
         {/* text här... */}
       </div>
@@ -12,4 +12,4 @@ function CheckBox_demo() {
   )
 }
 
-export default CheckBox_demo
+export default Switch_demo

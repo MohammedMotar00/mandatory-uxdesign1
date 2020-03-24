@@ -7,7 +7,7 @@ export class TextField extends Component {
             <div className="container-textField">
                 <input type="text" className="input-textField" required />
                 <label className="control-placeholder">Label</label>
-                <span class="focus-border"></span>
+                <span className="focus-border"></span>
             </div>
         )
     }

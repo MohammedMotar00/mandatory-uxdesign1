@@ -1,10 +1,10 @@
 import React from 'react'
-import Checkboxes from '../../Components/Checkboxes'
+import TextField from '../../Components/TextField'
 
-function CheckBox_demo() {
+function InputField_demo() {
   return (
     <div>
-      <Checkboxes />
+      <TextField />
       <div className="description">
         {/* text här... */}
       </div>
@@ -12,4 +12,4 @@ function CheckBox_demo() {
   )
 }
 
-export default CheckBox_demo
+export default InputField_demo

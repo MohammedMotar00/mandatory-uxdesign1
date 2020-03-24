@@ -1,10 +1,10 @@
 import React from 'react'
-import Checkboxes from '../../Components/Checkboxes'
+import RadioButtons from '../../Components/RadioButtons'
 
-function CheckBox_demo() {
+function RadioButtons_demo() {
   return (
     <div>
-      <Checkboxes />
+      <RadioButtons />
       <div className="description">
         {/* text här... */}
       </div>
@@ -12,4 +12,4 @@ function CheckBox_demo() {
   )
 }
 
-export default CheckBox_demo
+export default RadioButtons_demo

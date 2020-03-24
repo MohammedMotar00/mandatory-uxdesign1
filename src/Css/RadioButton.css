@@ -10,11 +10,14 @@
 }
 
 .div-radioButton1 {
-  margin-right: -48px;
+  padding: 20px;
+}
+
+.div-radioButton2 {
+  padding: 20px;
 }
 
 .radioButton {
-  position: absolute;
   opacity: 0;
   cursor: pointer;
 }

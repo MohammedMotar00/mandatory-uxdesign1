@@ -1,33 +1,28 @@
 import React from 'react';
-import './App.css';
 
 import { BrowserRouter as Router, Route } from 'react-router-dom';
 
-import RadioButtons from './Components/RadioButtons';
-import CheckBoxes from './Components/Checkboxes';
-import Switch from './Components/Switch';
-import TextField from './Components/TextField';
+import Main from './Components/Main';
 
-import Links_To_Demo from './Components/Links_To_Demo';
+import Demo from './demo/Components/Demo';
+import InputField_demo from './demo/Components/InputField_demo';
+import Switch_demo from './demo/Components/Switch_demo';
+import CheckBox_demo from './demo/Components/CheckBox_demo';
+import RadioButtons_demo from './demo/Components/RadioButtons_demo';
 
+import './App.css';
 
 function App() {
   return (
     <div className="App">
-      <header></header>
       <Router>
-        <Route path="" />
+        <Route exact path="/" component={Main} />
+        <Route path="/demopage" component={Demo} />
+        <Route path="/demopage/inputfield" component={InputField_demo} />
+        <Route path="/demopage/switch" component={Switch_demo} />
+        <Route path="/demopage/checkbox" component={CheckBox_demo} />
+        <Route path="/demopage/radiobuttons" component={RadioButtons_demo} />
       </Router>
-      <main>
-        <form>
-          <TextField />
-          <Switch /> 
-          <CheckBoxes />
-          <br/>
-          <RadioButtons />
-        </form>
-      </main>
-      <footer></footer>
     </div>
   );
 }
