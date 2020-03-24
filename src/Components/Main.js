@@ -12,6 +12,7 @@ function Main() {
       <Links_To_Demo />
       <div className="main-container">
         <header>
+          <h1>Main</h1>
         </header>
         <main>
           <form>
