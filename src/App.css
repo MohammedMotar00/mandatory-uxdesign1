@@ -1,6 +1,22 @@
+body {
+  background-color: rgba(107, 89, 89, 0.185);
+}
 .App {
   text-align: center;
   box-sizing: border-box;
   padding: 0px;
   margin: 0px;
+}
+
+.demo_container {
+  background-color: teal;
+  position: absolute;
+  right: 0;
+  border: 1px solid;
+  width: 150px;
+  cursor: pointer;
+}
+
+.demo_container h2:hover {
+  color: #fff
 }
