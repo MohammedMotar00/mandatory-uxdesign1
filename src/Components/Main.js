@@ -10,9 +10,7 @@ import Links_To_Demo from './Links_To_Demo';
 function Main() {
   return (
     <>
-    <Router>
       <Links_To_Demo />
-    </Router>
       <div className="main-container">
         <header>
         </header>
