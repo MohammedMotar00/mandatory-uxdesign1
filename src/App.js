@@ -9,6 +9,7 @@ import TextField from './Components/TextField';
 function App() {
   return (
     <div className="App">
+      <header></header>
       <form>
         <TextField />
         <Switch /> 
@@ -16,6 +17,7 @@ function App() {
         <br/>
         <RadioButtons />
       </form>
+      <footer></footer>
     </div>
   );
 }

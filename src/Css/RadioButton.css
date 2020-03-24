@@ -1,19 +1,17 @@
 .container-radio {
-    position: relative;
-    cursor: pointer;
+  position: relative;
+  cursor: pointer;
 }
 
 .div-radio {
   display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 .div-radioButton1 {
-  margin-right: -10px;
+  margin-right: -48px;
 }
-
-.div-radioButton2 {
-  margin-right: -10px;
-} 
 
 .radioButton {
   position: absolute;
@@ -31,22 +29,22 @@
 }
 
 .container-radio:hover .radioButton ~ .checkmark-radio {
-    background-color: #ccc;
+  background-color: #ccc;
 }
 
 .container-radio .radioButton:checked ~ .checkmark-radio {
-    background-color: #eee;
-    border: 2px solid #6200eeff;
+  background-color: #eee;
+  border: 2px solid #6200eeff;
 }
 
 .checkmark-radio:after {
-    content: "";
-    position: absolute;
-    display: none;
+  content: "";
+  position: absolute;
+  display: none;
 }
 
 .radioButton:checked ~ .checkmark-radio:after {
-    display: block;
+  display: block;
 }
 
 .checkmark-radio:after {
