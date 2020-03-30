@@ -11,6 +11,10 @@
     width: 0;
 }
 
+.checkbox:focus ~ .checkmark {
+    background-color: #ccc;
+}
+
 .checkmark {
     position: absolute;
     top: 0;

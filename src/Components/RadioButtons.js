@@ -6,16 +6,16 @@ class RadioButtons extends Component {
         return (
             <div className="div-radio">
                 <div className="div-radioButton1">
-                    <label class="container-radio">
-                        <input type="radio" name="radio" className="radioButton" />
-                        <span class="checkmark-radio"></span>
+                    <label className="container-radio">
+                        <input type="radio" disabled={this.props.disabled} name="radio" className="radioButton" />
+                        <span className="checkmark-radio"></span>
                     </label>
                 </div>
 
                 <div className="div-radioButton2">
-                    <label class="container-radio">
-                        <input type="radio" name="radio" className="radioButton" />
-                        <span class="checkmark-radio"></span>
+                    <label className="container-radio">
+                        <input type="radio" disabled={this.props.disabled} name="radio" className="radioButton" />
+                        <span className="checkmark-radio"></span>
                     </label>
                 </div>
             </div>

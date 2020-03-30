@@ -1,10 +1,22 @@
-import React from 'react'
+import React, { useState } from 'react'
 import RadioButtons from '../../Components/RadioButtons'
 
 function RadioButtons_demo() {
+  const [disabled, updateDisabled] = useState(false);
+
   return (
     <div>
-      <div className="components"><RadioButtons /></div>
+      <div className="components">
+        <RadioButtons disabled={disabled} />
+
+        <label>check to disable your component!</label>
+        <input
+          type="checkbox"
+          checked={disabled}
+          onChange={() => updateDisabled(!disabled)}
+        />
+      </div>
+
       <div className="description">
         <p>
           skapade två <strong>divar</strong>. En div för varje <strong>radio button</strong>.

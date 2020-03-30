@@ -1,12 +1,12 @@
 import React, { Component } from 'react'
 import '../Css/InputFiled.css';
 
-export class TextField extends Component {
+class TextField extends Component {
     render() {
         return (
             <div className="container-textField">
                 <input type="text" className="input-textField" required />
-                <label className="control-placeholder">Label</label>
+                <span className="control-placeholder">Label</span>
                 <span className="focus-border"></span>
             </div>
         )

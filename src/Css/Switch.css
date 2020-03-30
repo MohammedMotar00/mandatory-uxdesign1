@@ -10,6 +10,10 @@
     transition: .5s;
 }
 
+.switch:focus {
+    border: 1px solid red;
+}
+
 .switch:checked {
     background-color: #6200ee89;
 }

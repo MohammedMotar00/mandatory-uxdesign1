@@ -22,6 +22,10 @@
   cursor: pointer;
 }
 
+.radioButton:focus ~ .checkmark-radio {
+  background-color: #ccc;
+}
+
 .checkmark-radio {
   position: absolute;
   height: 16px;

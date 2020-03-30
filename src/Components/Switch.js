@@ -5,7 +5,7 @@ class Switch extends Component {
     render() {
         return (
             <div className="container">
-                <input className="switch" type="checkbox" name="" />
+                <input className="switch" disabled={this.props.disabled} type="checkbox" name="" />
             </div>
         )
     }
